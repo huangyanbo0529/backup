@@ -1,0 +1,10 @@
+https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/larserikfinholt.omp.json
+
+https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/larserikfinholt.omp.json
+
+https://github.com/devblackops/Terminal-Icons
+
+POSH_THEMES_PATHoh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json" | Invoke-Expression
+
+Install-Module -Name Terminal-Icons -Repository PSGallery
+

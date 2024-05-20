@@ -1,0 +1,104 @@
+{
+  "files.defaultLanguage": "c",
+  "editor.formatOnType": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.snippetSuggestions": "top",
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+    "c": "cd $dir && clang $fileName -o $fileNameWithoutExt.exe -Wall -g -O2 -static-libgcc --target=x86_64-w64-mingw -std=c11 && $dir$fileNameWithoutExt",
+    "cpp": "cd $dir && clang++ $fileName -o $fileNameWithoutExt.exe -Wall -g -O2 -static-libgcc --target=x86_64-w64-mingw -std=c++11 && $dir$fileNameWithoutExt",
+    "python": "cd $dir && set PYTHONIOENCODING=utf8 && python $fileName"
+  },
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.preserveFocus": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.ignoreSelection": true,
+  "C_Cpp.clang_format_sortIncludes": true,
+  "C_Cpp.errorSquiggles": "disabled",
+  "C_Cpp.autocomplete": "disabled",
+  "C_Cpp.suggestSnippets": false,
+  "explorer.confirmDelete": false,
+  "files.associations": {
+    "iostream": "cpp",
+    "stdio": "c",
+    "string.h": "c"
+  },
+  "editor.fontSize": 20,
+  "remote.SSH.remotePlatform": {
+    "Ubuntu_16.04": "linux"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "terminal.integrated.env.osx": {
+    "PYTHONPATH": "${workspaceFolder}/"
+  },
+  "terminal.integrated.env.linux": {
+    "PYTHONPATH": "${workspaceFolder}/"
+  },
+  "terminal.integrated.env.windows": {
+    "PYTHONPATH": "${workspaceFolder}/"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll": "explicit"
+  },
+  "files.autoSave": "afterDelay",
+  "update.enableWindowsBackgroundUpdates": false,
+  "update.mode": "none",
+  "cmake.configureOnOpen": true,
+  "cmake.options.statusBarVisibility": "visible",
+  "qtConfigure.mingwPath": "C:\\Applications\\Qt\\Qt5.12.12\\Tools\\mingw730_64",
+  "qtConfigure.qtDir": "C:\\Applications\\Qt\\Qt5.12.12",
+  "qtConfigure.qtKitDir": "C:\\Applications\\Qt\\Qt5.12.12\\5.12.12\\mingw73_64",
+  "cmake.showOptionsMovedNotification": false,
+  "editor.fontFamily": "'JetBrains Mono  NL','Source Code Pro',Consolas, 'Courier New', monospace",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontFamily": "'MesloLGL Nerd Font','JetBrains Mono  NL','Source Code Pro',Consolas, 'Courier New', monospace",
+  "terminal.integrated.copyOnSelection": true,
+  "python.formatting.provider": "black",
+  "black-formatter.args": ["--line-length=120", "--skip-string-normalization"],
+  "python.languageServer": "Pylance",
+  "terminal.integrated.enableImages": true,
+  "editor.mouseWheelZoom": true,
+  "workbench.colorTheme": "Visual Studio Dark - C++",
+  "window.zoomLevel": 0.9,
+  "Lingma.LocalStoragePath": "C:\\Users\\47155\\.lingma",
+  "git.autofetch": true,
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "terminal.external.windowsExec": "C:\\Windows\\system32\\cmd.exe",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.fontSize": 16,
+  "editor.parameterHints.enabled": false,
+  "editor.inlayHints.enabled": "off",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[c]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "clang-format.executable": "C:/Applications/LLVM/bin/clang-format",
+  "editor.formatOnSave": true,
+  "clangd.fallbackFlags": [
+    "-std=c11",
+    "--target=x86_64-w64-windows-gnu",
+    "-IC:\\Applications\\mingw64\\x86_64-w64-mingw32\\13.2.0\\include\\c++",
+    "-Ic:\\Applications\\LLVM\\lib\\gcc\\x86_64-w64-mingw32\\13.2.0\\include\\c++\\x86_64-w64-mingw32",
+    "-Ic:\\Applications\\mingw64\\x86_64-w64-mingw32\\include",
+    "-Ic:\\Applications\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.2.0\\include"
+  ],
+  "clangd.arguments": [
+    "--header-insertion=never",
+    "--completion-style=detailed",
+    "--query-driver=C:\\Applications\\mingw64\\bin\\gcc"
+  ],
+  "C_Cpp.default.compilerArgs": ["--target=x86_64-w64-mingw"]
+}
