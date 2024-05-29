@@ -104,7 +104,7 @@ BraceWrapping :
   # enum定义后面
   AfterEnum:	false
   # 函数定义后面
-  AfterFunction:	true
+  AfterFunction:	false
   # 命名空间定义后面
   AfterNamespace:	false
   # ObjC定义后面

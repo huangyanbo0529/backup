@@ -1,0 +1,16 @@
+{
+	"Print to console": {
+		"prefix": "cf", //在新建立的页面中输入C就会有智能提示，Tab就自动生成好了
+		"body": [
+			"#include <stdio.h>",
+			"", //空行
+			"int main()", //main()函数
+			"{",
+			"   $0", //最终光标会在这里等待输入
+			"   return 0;", //结束
+			"}",
+			"",
+		],
+		"description": "A c file template." //用户输入后智能提示的内容（你可以用中文写“生成C++模板”）
+	}
+}

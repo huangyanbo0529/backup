@@ -1,0 +1,18 @@
+{
+  "files.defaultLanguage": "c",
+  "editor.formatOnType": true,
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+    "c": "cd $dir && gcc $fileName -o ./output/$fileNameWithoutExt.out -Wall -O2 -m64 -lm -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 -D__USE_MINGW_ANSI_STDIO && ./output/$fileNameWithoutExt.out",
+    "cpp": "cd $dir && g++ $fileName -o ./output/$fileNameWithoutExt.out -Wall -O2 -m64 -static-libgcc -finput-charset=UTF-8 -fexec-charset=UTF-8 && ./output/$fileNameWithoutExt.out"
+  },
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.preserveFocus": true,
+  "code-runner.clearPreviousOutput": false,
+  "code-runner.ignoreSelection": true,
+  "code-runner.fileDirectoryAsCwd": true,
+  "C_Cpp.clang_format_sortIncludes": true,
+  "clangd.fallbackFlags": [
+    "-I/usr/include",
+  ]
+}

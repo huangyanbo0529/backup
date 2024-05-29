@@ -1,0 +1,37 @@
+{
+  "HEADER": {
+    "prefix": "ph",
+    "body": [
+      "#!/usr/bin/env python",
+      "# -*- encoding: utf-8 -*-",
+      "",
+      "",
+      "'''",
+      "@Author  :   huangyb",
+      "@Ide     :   vscode & python",
+      "@File    :   $TM_FILENAME",
+      "@Time    :   $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
+      "'''",
+      "",
+      "$0"
+    ]
+  },
+  "MAIN": {
+    "prefix": "pmian",
+    "body": ["if __name__ == \"__main__\":", "    $0"]
+  },
+  "FUNCTION_DOC": {
+    "prefix": "funcdocstring",
+    "body": [
+      "\"\"\"",
+      "${1:[summary]}",
+      "",
+      ":param ${2:param}: ${3:[description]}",
+      ":type ${2:param}: ${4:[type]}",
+      ":return: ${5:[description]}",
+      ":rtype: ${6:[type]}",
+      "\"\"\""
+    ],
+    "description": "Generate a Python docstring"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "files.defaultLanguage": "c",
+  "editor.formatOnType": true,
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+    "c": "cd $dir && gcc $fileName -o ./output/$fileNameWithoutExt.exe -Wall -O2 -m64 -lm -static-libgcc -finput-charset=UTF-8 -fexec-charset=GBK -D__USE_MINGW_ANSI_STDIO && ./output/$fileNameWithoutExt.exe",
+    "cpp": "cd $dir && g++ '$fileName -o ./output/$fileNameWithoutExt.exe -Wall -O2 -m64 -static-libgcc -finput-charset=UTF-8 -fexec-charset=GBK && ./output/$fileNameWithoutExt.exe"
+  },
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.preserveFocus": true,
+  "code-runner.clearPreviousOutput": false,
+  "code-runner.ignoreSelection": true,
+  "code-runner.fileDirectoryAsCwd": true,
+  "C_Cpp.clang_format_sortIncludes": true,
+  "clangd.fallbackFlags": [
+    "-IC:\\Applications\\mingw64\\include",
+    "-IC:\\Applications\\mingw64\\x86_64-w64-mingw32\\include",
+    "-IC:\\Applications\\mingw64\\x86_64-w64-mingw32\\13.2.0\\include\\c++",
+    "-IC:\\Applications\\LLVM\\lib\\gcc\\x86_64-w64-mingw32\\13.2.0\\include\\c++\\x86_64-w64-mingw32",
+    "-IC:\\Applications\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\include"
+  ]
+}

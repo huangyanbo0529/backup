@@ -1,0 +1,39 @@
+{
+	"cpp-template": {
+	  "prefix": "cpp", //在新建立的页面中输入C++就会有智能提示，Tab就自动生成好了
+	  "body": [
+		"#include <iostream>",
+		"#include <vector>", //可以自行添加头文件
+		"", //空行
+		"using namespace std;", //标准命名空间
+		"",
+		"int main()", //main()函数
+		"{",
+		"   $0", //最终光标会在这里等待输入
+		"   system(\"pause\");", //标准C++的等待用户动作
+		"   return 0;", //结束
+		"}",
+		""
+	  ],
+	  "description": "A cpp file template." //用户输入后智能提示的内容（你可以用中文写“生成C++模板”）
+	},
+	"print-to-console": {
+	  "prefix": "sout",
+	  "body": ["cout<<$0<<endl;"],
+	  "description": "print-to-console"
+	},
+	"Add File Header": {
+	  "prefix": "fileheader",
+	  "body": [
+		"/**",
+		"  * @file    :${TM_FILENAME}",
+		"  * @brief   :$1",
+		"  * @author  :huangyb",
+		"  * @version :V1.0.0",
+		"  * @date    :${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+		"  */"
+	  ],
+	  "description": "Add file describe"
+	}
+  }
+  
