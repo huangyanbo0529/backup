@@ -6,7 +6,7 @@ BasedOnStyle: LLVM
 # 要使用的预处理器指令缩进样式
 IndentPPDirectives: AfterHash
 # 缩进宽度
-IndentWidth: 2
+IndentWidth: 4
 # 标准: Cpp03, Cpp11, Auto
 Standard: Latest
 # tab宽度
@@ -72,7 +72,7 @@ AllowShortIfStatementsOnASingleLine: WithoutElse
 # 中括号两边空格 [] 
 SpacesInSquareBrackets: false
 # 等号两边的空格
-SpaceBeforeAssignmentOperators: true
+SpaceBeforeAssignmentOperators: false
 # 容器类的空格
 SpacesInContainerLiterals: false
 # 缩进包装函数名
@@ -100,11 +100,11 @@ BraceWrapping :
   # class定义后面
   AfterClass:	false
   # 控制语句后面
-  AfterControlStatement:	false
+  AfterControlStatement: true
   # enum定义后面
-  AfterEnum:	false
+  AfterEnum: false
   # 函数定义后面
-  AfterFunction:	false
+  AfterFunction: true
   # 命名空间定义后面
   AfterNamespace:	false
   # ObjC定义后面
